@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main style={{minHeight:'100vh',display:'grid',placeItems:'center',padding:30,fontFamily:'Arial',textAlign:'center',background:'#f5f8fc',color:'#172033'}}><div><p style={{fontSize:80,fontWeight:800,color:'#172a5a',margin:0}}>404</p><h1>Cette page n’existe pas.</h1><p>Retournez à l’accueil de Tlemsani Tours.</p><Link href="/" style={{display:'inline-block',padding:'13px 20px',borderRadius:999,background:'#172a5a',color:'#fff'}}>Retour à l’accueil</Link></div></main>}
